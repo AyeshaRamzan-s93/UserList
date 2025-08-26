@@ -1,0 +1,67 @@
+
+
+.student-card {
+  background: #fff;
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  font-family: "Segoe UI", sans-serif;
+}
+
+.student-card h2 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.input-section {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.input-section input {
+  flex: 1;
+  padding: 8px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  outline: none;
+}
+
+.input-section button {
+  background: #4caf50;
+  border: none;
+  padding: 8px 12px;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.input-section button:hover {
+  background: #45a049;
+}
+
+.student-list {
+  list-style: none;
+  padding: 0;
+}
+
+.student-list li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #f8f9fa;
+  margin: 8px 0;
+  padding: 10px;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+.remove-btn {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
